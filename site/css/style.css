@@ -2394,6 +2394,7 @@ img {
 	max-width: 100%;
 }
 
+
 .img-responsive {
 	width: 100%;
 }
@@ -5219,17 +5220,18 @@ textarea.form-input {
 	margin-left: auto;
 	margin-right: auto;
 	padding: 30px;
-	background-color: #ffffff;
-	opacity: .3;
+border: 1px solid rgba(68, 68, 68, 0.282);
+background: #fff;
 }
 
 .sponsor:hover {
 	opacity: 1;
+	border: 1px solid #ff750f;
 }
 
 .sponsor-overlay {
 	z-index: -1;
-	border-top-color: rgba(248, 247, 244, 0.6);
+	border-top-color: rgba(236, 205, 112, 0.6);
 	transform: scale(0.3);
 	transform-origin: right top;
 	opacity: 0;
@@ -5265,7 +5267,9 @@ textarea.form-input {
 	letter-spacing: .2em;
 	text-transform: uppercase;
 }
-
+.sponsor img{
+	height: auto;
+}
 .sponsor-info-link:hover {
 	text-decoration: underline;
 }
