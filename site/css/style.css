@@ -5700,7 +5700,7 @@ textarea.form-input {
 
 .schedule-classic-content {
 	padding: 30px 20px;
-	background-color: #f4f2ee;
+	background-color: #fff;
 }
 
 .schedule-classic-img {
@@ -9240,6 +9240,9 @@ button.swiper-pagination-bullet {
 .tab-pane.active .schedule-classic-simple {
 	opacity: 1;
 	transform: translateX(0);
+}
+.tab-pane.active .schedule-classic-simple{
+	border-bottom: 1px solid rgba(0, 0, 0, 0.125) ;
 }
 
 .tab-pane.active .card-custom:nth-child(1),
