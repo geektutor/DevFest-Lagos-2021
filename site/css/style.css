@@ -2674,7 +2674,6 @@ a.icon[class*='youtube']:hover {
 }
 
 .icon-rect.icon-white, .icon-rect.icon-white:focus, .icon-rect.icon-white:active {
-	color: #ffffff;
 	background-color: #ffffff;
 }
 
