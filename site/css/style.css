@@ -6152,6 +6152,7 @@ background: #fff;
 }
 
 .preloader-body p {
+	font-size: 30px;
 	position: relative;
 	right: -8px;
 }
