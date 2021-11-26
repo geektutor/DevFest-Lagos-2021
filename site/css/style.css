@@ -5218,7 +5218,6 @@ textarea.form-input {
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 30px;
 border: 1px solid rgba(68, 68, 68, 0.282);
 background: #fff;
 }
@@ -9106,7 +9105,7 @@ button.swiper-pagination-bullet {
 }
 
 .tabs-custom .nav-link-secondary-darker {
-	background-color: #ef7630;
+	background-color: #4285F4;
 }
 
 .tabs-custom .nav-link-secondary-darker:hover, .tabs-custom .nav-link-secondary-darker.active {
@@ -9122,7 +9121,7 @@ button.swiper-pagination-bullet {
 }
 
 .tabs-custom .nav-link-purple-heart {
-	background-color: #822ea8;
+	background-color: #DB4437;
 }
 
 .tabs-custom .nav-link-purple-heart:hover, .tabs-custom .nav-link-purple-heart.active {
@@ -9138,7 +9137,7 @@ button.swiper-pagination-bullet {
 }
 
 .tabs-custom .nav-link-primary {
-	background-color: #d90e90;
+	background-color: #F4B400;
 }
 
 .tabs-custom .nav-link-primary:hover, .tabs-custom .nav-link-primary.active {
@@ -9154,7 +9153,7 @@ button.swiper-pagination-bullet {
 }
 
 .tabs-custom .nav-link-secodanry {
-	background-color: #f09922;
+	background-color: #0F9D58;
 }
 
 .tabs-custom .nav-link-secodanry:hover, .tabs-custom .nav-link-secodanry.active {
