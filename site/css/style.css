@@ -3068,15 +3068,15 @@ hr {
 }
 
 .button-primary:before {
-	background-image: -webkit-linear-gradient(left, #822ea8 0%, #d90e90 100%);
-	background-image: linear-gradient(to right, #822ea8 0%, #d90e90 100%);
+	background-image: -webkit-linear-gradient(left, #DB4437 0%, #F4B400 100%);
+	background-image: linear-gradient(to right, #DB4437 0%, #F4B400 100%);
 	background-repeat: repeat-x;
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF822EA8', endColorstr='#FFD90E90', GradientType=1);
 }
 
 .button-primary:after {
-	background-image: -webkit-linear-gradient(left, #d90e90 0%, #822ea8 100%);
-	background-image: linear-gradient(to right, #d90e90 0%, #822ea8 100%);
+	background-image: -webkit-linear-gradient(left, #F4B400 0%, #DB4437 100%);
+	background-image: linear-gradient(to right, #F4B400 0%, #DB4437 100%);
 	background-repeat: repeat-x;
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFD90E90', endColorstr='#FF822EA8', GradientType=1);
 }
@@ -3103,12 +3103,12 @@ hr {
 
 .button-default-outline:hover, .button-default-outline:active, .button-default-outline.active {
 	color: #ffffff;
-	background-color: #d90e90;
-	border-color: #d90e90;
+	background-color: #ef7630;
+	border-color: #ef7630;
 }
 
 .button-default-outline.button-ujarak::before {
-	background: #d90e90;
+	background: #ef7630;
 }
 
 .button-ghost {
@@ -3118,7 +3118,7 @@ hr {
 
 .button-ghost:hover {
 	color: #ffffff;
-	background: #d90e90;
+	background: #ef7630;
 }
 
 .button-facebook, .button-facebook:focus {
@@ -6190,7 +6190,7 @@ background: #fff;
 	font-size: 20px;
 	line-height: 46px;
 	color: #ffffff;
-	background: #d90e90;
+	background: #DB4437;
 	overflow: hidden;
 	text-align: center;
 	text-decoration: none;
