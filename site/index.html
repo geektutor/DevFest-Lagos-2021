@@ -74,8 +74,14 @@
               <div class="col-lg-10">
                 <div class="badge-promo wow fadeScale" data-wow-delay=".6s"><span class="badge-promo-text">CONNECT . LEARN  . GROW</span>
                   <svg class="badge-promo-icon" width="319" height="49" viewBox="0 0 319 49" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H319L299 25L319 49H0L20 25L0 0Z" fill="url( #svg-gradient-primary )"></path>
+                    <path class="banner" fill-rule="evenodd" clip-rule="evenodd" d="M0 0H319L299 25L319 49H0L20 25L0 0Z" fill="url( #MyGradient )"></path>
                     <path opacity="0.08" fill-rule="evenodd" clip-rule="evenodd" d="M0 0H319L299 25L319 49L0 0Z" fill="white"></path>
+                    <defs>
+                      <linearGradient id="MyGradient">
+                        <stop offset="5%" stop-color="#F4B400" />
+                        <stop offset="95%" stop-color="#DB4437" />
+                      </linearGradient>
+                    </defs>
                   </svg>
                 </div>
                 <h4 class="wow fadeInUp text-spacing-200" data-wow-delay=".8s" data-caption-animate="fadeInUp" data-caption-delay="300" data-caption-duration="900">DEVFEST LAGOS 2021</h4>
@@ -974,15 +980,13 @@
             <div class="col-md-10 col-lg-8">
               <h6>newsletter signup</h6>
               <h3>Join for news updates.</h3>
-              <form class="rd-form rd-mailform rd-form-inline" data-form-output="form-output-global" data-form-type="subscribe" method="post" action="bat/rd-mailform.php">
-                <div class="form-wrap">
-                  <input class="form-input" id="subscribe-form-email" type="email" name="email" data-constraints="@Email @Required">
-                  <label class="form-label" for="subscribe-form-email">Email Address</label>
-                </div>
+             
+               
                 <div class="form-button">
-                  <button class="button button-primary" type="submit" data-triangle=".button-overlay"><span>Subscribe now</span><span class="button-overlay"></span></button>
+                  <a href="https://gdg.community.dev/gdg-lagos/">
+                    <button class="button button-primary" type="submit" data-triangle=".button-overlay"><span>Subscribe now</span><span class="button-overlay"></span></button>
+                  </a>
                 </div>
-              </form>
             </div>
           </div>
         </div>
