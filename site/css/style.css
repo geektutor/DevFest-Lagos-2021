@@ -5098,7 +5098,9 @@ textarea.form-input {
 	line-height: 1.2;
 	color: #8b8b9a;
 }
-
+.speaker-position.company{
+	text-transform: uppercase;
+}
 * + .speaker-title, .context-dark * + .speaker-title {
 	margin-top: 20px;
 }
